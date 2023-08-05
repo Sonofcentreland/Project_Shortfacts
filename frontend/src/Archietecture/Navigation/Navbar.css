@@ -1,0 +1,10 @@
+.NavbarBorder *{
+    margin: 0;
+    padding: 0;
+}
+
+.NavbarBorder{
+    width: clamp(200px, 40%, 700px);
+    height: clamp(200px, 40vh, 700px);
+    border: 2px solid black;
+}
